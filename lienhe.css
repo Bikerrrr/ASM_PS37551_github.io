@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    box-sizing: border-box;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    
+   display: flex;
+   flex-direction: column;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    width: 100%;
+    background-color: #517cdc;
+    color: white;
+    font-size: 15px;
+}
+.map{
+    max-width: 100%;
+   height: 700px;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.icon_wrapper{
+    border-radius: 50%;
+    box-shadow: inset 0 0 7px 0 rgba(0,0,0,.08);
+    width: 100px;
+    height: 100px;
+    border-color: #f8f8f8;
+}
+.icon_wrapper{
+   
+    position: relative;
+}
+.icon{
+    position: absolute;
+    left: 35px;
+    top: 40px;
+}
+
+.desc{
+    color: #848484;
+}
+
+.icon_box a{
+    text-decoration: none;
+}
+.lienlac{
+    display: flex;
+    flex-direction: column ;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.column{
+    margin-top: 20px;
+   
+
+}
+.desc_wrapper{
+    margin-top: 20px;
+    text-align: center;
+}
+.iconnit{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.icon_wrapper:hover{
+
+background-color: red;
+}
+.lienhe{
+    margin-top: 50px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.imgss{
+    width: 400px;
+}
+.lienhe{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+.thongtinnn{
+    width: 35%;
+}
+.email{
+    width: 450px;
+}
+
+
+@media screen and (min-width:600px ) {
+    .left{
+        flex-direction: row;
+    }
+    .right{
+        padding-left: 10px;
+    }
+    .top{
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+    }
+    .lienlac{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .lienhe{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .imgss{
+        width: 200px;
+    }
+    
+    
+    
+}
+@media screen and (min-width:1024px){
+    footer{
+        padding-left:100px;
+    }
+}
